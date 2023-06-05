@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Information about the webpage" />
+    <meta name="keywords" content="Commercial" />
+    <link rel="stylesheet" href="css/splide.min.css" />
+    <link rel="stylesheet" href="theme/splide-sea-green.min.css" />
+    <title>My First Webpage</title>
+    <style>
+      img {
+        width: 500px;
+          }
+    </style>
+    <style>
+      em {
+        color: rgb(49, 139, 0);
+        font: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <style>
+        em {
+          color: rgb(139, 125, 0);
+        }
+      </style>
+      <img src="images/TRANSPARENT HORIZ.png" alt="logo" />
+      <p><em>Staples Commercial Group</em></p>
+    </h1>
+    <section class="splide" 
+      <div class="splide__slider">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide"><img src="images/01.jpg" alt="" /></li>
+            <li class="splide__slide"><img src="images/02.jpg" alt="" /></li>
+            <li class="splide__slide"><img src="images/03.png" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script src="js/splide.js"></script>
+    <script src="path-to-the-script/splide-extension-intersection.min.js"></script>
+    <script src="path-to-the-script/splide-extension-intersection.min.js"></script>
+    <script src="path-to-the-script/splide-extension-auto-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.5.0/dist/js/splide.min.js"></script>
+    <script src="https://github.com/Splidejs/splide-extension-auto-scroll/blob/master/dist/js/splide-extension-auto-scroll.cjs.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const splide = new Splide(".splide", {
+          type: "loop",
+          gap: '',
+          height: '',
+          focus: 'center',
+          padding: '5rem',
+          autowidth: true,
+          speed: 1000,
+          perPage: 1,
+          autoplay: true,
+          autoscroll: {
+            speed: 2,
+          },
+          interval: 5000,
+          arrows: true,
+          pagination: true,
+          pauseOnHover: true,
+          wheel: true,
+        });
+        splide.mount();
+      });
+    </script>
+    <h2>About Me</h2>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde odit, quae
+      molestias deserunt vitae ducimus doloribus esse quia consequuntur sequi
+      adipisci non tenetur commodi quasi voluptas incidunt exercitationem!
+      Dolores eum itaque vitae aut, dicta ab odio consectetur commodi nulla
+      reprehenderit sapiente natus, explicabo vel aperiam placeat odit
+      consequuntur obcaecati facilis eos iusto quam ex iste quod optio. Sunt
+      magni quasi quod harum vero voluptatibus reiciendis recusandae distinctio
+      quam, quibusdam itaque corporis aliquid a esse deserunt, quia, quidem sit.
+      Reprehenderit beatae sequi dolor possimus similique atque natus
+      blanditiis, veritatis, nesciunt asperiores ullam laboriosam facilis
+      explicabo nobis impedit ducimus nulla obcaecati eligendi. Est repellat
+      facilis quisquam quos id voluptatibus vel tempora error eius maiores rerum
+      consectetur ab cumque nam aperiam aliquid temporibus vitae laborum, harum
+      soluta aspernatur, inventore minus? Dignissimos labore, illum, enim harum
+      illo tempore delectus veritatis dolore optio assumenda ipsum eos facere
+      cupiditate unde esse at? Officiis accusamus quos tempora fugiat pariatur
+      accusantium necessitatibus provident inventore! Labore architecto corporis
+      reprehenderit similique suscipit dolorem inventore velit explicabo
+      molestiae, autem in? Nesciunt dolore natus quos alias totam quasi earum
+      inventore a reiciendis, eaque explicabo velit, aut aliquid architecto modi
+      beatae qui quam. Sint eos recusandae dolore laborum, at dolorem fuga enim
+      iste.
+    </p>
+  </body>
+</html>
